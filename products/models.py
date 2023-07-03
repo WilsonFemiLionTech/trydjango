@@ -5,3 +5,4 @@ class Product(models.Model):
     title = models.TextField()
     description = models.CharField(max_length=15)
     price = models.TextField()
+    summary = models.TextField(default="summary")
